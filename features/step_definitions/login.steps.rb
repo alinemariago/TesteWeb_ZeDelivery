@@ -13,7 +13,7 @@ Quando("eu faço login com {string} e {string}") do |email,senha|
   Então("devo ver o {string} do usuário logado") do |expect_name|
     sleep 3
     expect_name = "Olá, Marcos"
-    user = find('.css-1p15ya-userBadgeBase .css-10zhe0i-textContainer .css-7kgpm6-textBase-UserProfileCard')
+    user = find('.css-1p15ya-userBadgeBase .css-10zhe0i-textContainer .css-162x1q9-textBase-UserProfileCard')
     expect(user.text).to eql expect_name
   end
 
