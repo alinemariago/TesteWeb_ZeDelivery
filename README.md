@@ -27,13 +27,9 @@ Projeto desenvolvido para testes no site: https://www.ze.delivery/
 
 
 
-### Instalação:
+### Instalação Windows:
 
 ##### *Guia de instalação do Ruby + Devkit + Bundler no Windows:* - https://medium.com/qaninja/instalando-ruby-cucumber-e-capybara-no-windows-10-acb1fe833a95
-
-- *[Bundler]*
-
-  - *gem install bundler*
 
 - *[Firefox] - Configurando navegador Firefox para rodar o testes:*
 
@@ -41,7 +37,6 @@ Projeto desenvolvido para testes no site: https://www.ze.delivery/
 
   - Realizar a instalação do padrão na sua máquina.
 
-    
 
 ### Executando os testes:
 
