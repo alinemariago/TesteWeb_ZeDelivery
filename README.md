@@ -1,6 +1,6 @@
 # Projeto de automação de WEB
 
-Projeto desenvolvido para testes no site: https://www.ze.delivery/
+Projeto  de automação de testes do site: https://www.ze.delivery/
 
 #### **O projeto possui as seguintes Gems:**
 
@@ -42,14 +42,14 @@ Projeto desenvolvido para testes no site: https://www.ze.delivery/
 
 ```bash
 # No terminal, na pasta do projeto, execute o seguinte comando que irá instalar as Gems do projeto:
-  - bundle install
+  bundle install
 # Para rodar todos os testes, execute o seguinte comando na pasta do projeto:
-  - bundle exec cucumber
+  bundle exec cucumber
 # Para rodar cenários específicos utilize tags:
-  - bundle exec cucumber -t @login_happy
-  - bundle exec cucumber -t @login_hapless
-  - bundle exec cucumber -t @login_usuario_no_formato_incorreto
-  - bundle exec cucumber -t  @login_senha_pequena
+  bundle exec cucumber -t @login_happy
+  bundle exec cucumber -t @login_hapless
+  bundle exec cucumber -t @login_usuario_no_formato_incorreto
+  bundle exec cucumber -t  @login_senha_pequena
 ```
 
 **Status do projeto**: Concluído
